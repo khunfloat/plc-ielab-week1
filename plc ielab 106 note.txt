@@ -1,0 +1,10 @@
+	ANS 		Carry
+a b c
+0 0 0 -> 0      
+0 0 1 -> 1          	~a x ~b x c      
+0 1 0 -> 1		~a x b x ~c	
+0 1 1 -> 0 c 1			~a x b x c	
+1 0 0 -> 1		a x ~b x ~c
+1 0 1 -> 0 c 1			a x ~b x c
+1 1 0 -> 0 c 1			a x b x ~c **
+1 1 1 -> 1 c 1	a x b x c		a x b x c
